@@ -1,6 +1,10 @@
 import { useState, forwardRef, useImperativeHandle } from 'react';
 import styles from './MainMenu.module.css';
 
+const siteTitle:String = import.meta.env.VITE_SITE_TITLE;
+
+console.log("Site title:", siteTitle);
+
 type Props = {};
 
 const MainMenu = forwardRef((props:Props, ref:any) => {
