@@ -1,0 +1,26 @@
+/* src/components/MainMenu/MainMenu.module.css */
+
+.mainMenu {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+.mainMenu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.mainMenu li {
+    display: inline;
+    margin-right: 15px;
+    }
+
+.mainMenu a {
+    color: white;
+    text-decoration: none;
+}
+
+    .mainMenu a:hover {
+    text-decoration: underline;
+}
