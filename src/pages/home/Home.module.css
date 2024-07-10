@@ -1,8 +1,9 @@
 .homeContainer {
-    padding: 20px;
     background-color: #f0f0f0;
-  }
-  
-  .homeTitle {
-    color: #333;
-  }
+    padding-top: 90px;
+}
+
+.bannerImage{
+  width: 100%;
+  height: auto;
+}
