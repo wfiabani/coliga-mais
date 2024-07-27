@@ -1,0 +1,79 @@
+
+a.vereador{
+    margin-bottom: 35px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  a.vereador .thumb{
+    width: 100%;
+    height: 300px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  
+  @media (max-width: 1399px) {
+    a.vereador .thumb{
+      height: 240px;
+    }
+  }
+  
+  @media (max-width: 1199px) {
+    a.vereador .thumb{
+      height: 180px;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    a.vereador .thumb{
+      height: 120px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    a.vereador .thumb{
+      height: 60vw;
+    }
+  }
+  
+  
+  
+  a.vereador h1{
+    font-size: 20px;
+    color: blue;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  a.vereador h2{
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: #ccc;
+  }
+  a.vereador h3{
+    font-size: 16px;
+    color: red;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+   
+  a.vereador:hover h1{
+    color: red;
+  }
+  a.vereador_a .thumb{ background-image: url(../../assets/candidatos/candidato_a.jpg); }
+  a.vereador_b .thumb{ background-image: url(../../assets/candidatos/candidato_b.jpg); }
+  a.vereador_c .thumb{ background-image: url(../../assets/candidatos/candidato_c.jpg); }
+  a.vereador_d .thumb{ background-image: url(../../assets/candidatos/candidato_d.jpg); }
+  a.vereador_e .thumb{ background-image: url(../../assets/candidatos/candidato_e.jpg); }
+  a.vereador_e .thumb{ background-image: url(../../assets/candidatos/candidato_e.jpg); }
+  a.vereador_f .thumb{ background-image: url(../../assets/candidatos/candidato_f.jpg); }
+  

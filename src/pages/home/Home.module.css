@@ -1,5 +1,4 @@
 .homeContainer {
-    background-color: #f0f0f0;
     padding-top: 90px;
 }
 
@@ -7,3 +6,31 @@
   width: 100%;
   height: auto;
 }
+
+/* begin home buttons */
+a.hLink{
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 40px;
+  color: blue;
+  background-color: #dadada;
+  border-radius: 80px;
+  padding: 30px 45px;
+  width: 80%;
+  text-decoration: none;
+  display: inline-block;
+}
+a.hLink:hover{
+  text-decoration: none;
+}
+
+a.hLink.hLinkA{
+
+}
+a.hLink.hLinkB{
+
+}
+
+
+/* end home buttons */

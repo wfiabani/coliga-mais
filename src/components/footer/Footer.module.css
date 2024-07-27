@@ -1,8 +1,8 @@
 footer{
     clear: both;
-    background-color: blue;
+    /* background-image: linear-gradient(to bottom, #efefef , #fff); */
     padding: 100px 0;
-
+    border-top: 1px #efefef solid;
     margin-top: auto;
     padding: 10px;
     text-align: center;
@@ -12,7 +12,7 @@ footer{
 
 
 
-
+/* begin menu */
 ul.footerMenu {
     margin: 15px 0 20px 0;
     list-style: none;
@@ -26,7 +26,43 @@ ul.footerMenu  li {
 }
 ul.footerMenu  a {
     text-decoration: none;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    color: #ccc;
+    font-size: 15px;
 }
 ul.footerMenu  a:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    color: blue;
 }
+/* end menu */
+
+
+/* begin social */
+div.social{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+}
+div.social a{
+
+}
+div.social a img{
+    width: 32px;
+    height: auto;
+}
+/* end social */
+
+
+/* begin contact info */
+.address{
+    color: #333;
+    font-size: 12px;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+/* end contact info */

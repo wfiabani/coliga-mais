@@ -3,8 +3,9 @@ import './App.css'
 
 // pages
 import Home from './pages/home/Home';
-import Contact from './pages/contact/Contact';
-import About from './pages/about/About';
+import Contato from './pages/contato/Contato';
+import Propostas from './pages/propostas/Propostas';
+import Vereadores from './pages/vereadores/Vereadores';
 
 function App() {
   return (
@@ -12,8 +13,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/propostas" element={<Propostas />} />
+        <Route path="/candidatos" element={<Vereadores />} />
+        <Route path="/contato" element={<Contato />} />
       </Routes>
     </BrowserRouter>
   )

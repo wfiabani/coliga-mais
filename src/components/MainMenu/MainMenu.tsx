@@ -22,19 +22,24 @@ const MainMenu = (props:Props) => {
           <div className="col">
             <ul>
               <li>
-                <Link to='/home'>
-                    <b>Home</b>
-                </Link>
+                  <Link to='/home'>
+                      <b>Início</b>
+                  </Link>
               </li>
               <li>
-                <Link to='/about'>
-                    <b>Sobre</b>
-                </Link>
+                  <Link to='/propostas'>
+                      <b>Propostas</b>
+                  </Link>
               </li>
               <li>
-                <Link to='/contact'>
-                  <b>Contact</b>
-                </Link>
+                  <Link to='/candidatos'>
+                      <b>Candidatos</b>
+                  </Link>
+              </li>
+              <li>
+                  <Link to='/contato'>
+                      <b>Contato</b>
+                  </Link>
               </li>
             </ul>
           </div>
