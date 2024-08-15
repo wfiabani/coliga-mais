@@ -7,9 +7,7 @@ const siteTitle:String = import.meta.env.VITE_SITE_TITLE;
 
 console.log("Site title:", siteTitle);
 
-type Props = {};
-
-const MainMenu = (props:Props) => {
+const MainMenu = () => {
   return (
     <nav className={styles.mainMenu}>
       <div className="container">

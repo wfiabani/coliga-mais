@@ -1,5 +1,4 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
 import styles from './Vereadores.module.css';
 
 import MainMenu from '../../components/MainMenu/MainMenu';

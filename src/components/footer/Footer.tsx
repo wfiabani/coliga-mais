@@ -12,9 +12,7 @@ const siteTitle:String = import.meta.env.VITE_SITE_TITLE;
 
 console.log("Site title:", siteTitle);
 
-type Props = {};
-
-const Footer = (props:Props) => {
+const Footer = () => {
   return (
     <footer>
         <div className='container'>

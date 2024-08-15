@@ -1,9 +1,7 @@
 import {Link} from 'react-router-dom';
 import styles from './Candidatos.module.css';
 
-type Props = {};
-
-const Candidatos = (props:Props) => {
+const Candidatos = () => {
   return (
 
 
